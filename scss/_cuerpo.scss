@@ -1,0 +1,26 @@
+@import"colores";
+
+.cuerpo{
+    grid-area: cuerpo;
+    display: flex;
+    flex-direction: row;
+    background-color: $bgGral;
+    .miVideo {
+        margin-left: 20rem;
+        width: 35rem;
+        height: 18rem;
+    }
+    .logo2 {
+        height: 18rem;
+        width: 35rem;
+        margin-left: 20rem;
+    }
+    .logo3 {
+        height: 18rem;
+        width: 35rem;
+        margin-left: 20rem;
+    }
+    p{
+        margin: 1.5rem;
+    }
+}
